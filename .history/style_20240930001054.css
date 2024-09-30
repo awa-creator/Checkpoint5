@@ -1,0 +1,138 @@
+body{
+    background-color: rgba(28, 104, 104, 0.541);
+}
+.bodyimg{
+    background-image: url(image/img.jpg);
+}
+h1{
+    text-align: center;
+    margin-top: 90px;
+    color: blue;
+    font-size: xx-large;
+}
+
+.photo{
+    margin: right 80px;
+    width: 20px;
+    height: 10px;
+}
+
+.chaus1{
+    margin-left: 100px;
+    text-align: center;
+}
+.krigo{
+    margin-left:0px;
+    text-align: center;
+    left: 0px;
+top: 450px;
+position: absolute;
+    
+}
+.prix{
+    margin-left: 90px;
+    text-align: center;
+    color: blue;
+}
+.trix{
+    margin-left: 90px;
+    text-align: center;
+    position: absolute;  
+left: 50px;
+top: 470px;
+color: blue;
+}
+
+.plus{
+    margin-left: 150px;
+    text-align: center;
+}
+.flus{
+    margin-left: 0;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+top:600px
+}
+
+.value{
+    margin-left: 30px;
+    text-align: center;
+}
+
+.palue{
+    margin-left: 50px;
+    text-align: center; 
+    position: absolute;
+    left: 30px;
+top: 600px;
+}
+
+.moins{
+    margin-left: 50px;
+    text-align: center; 
+}
+
+.coins{
+    margin-left: 50px;
+    text-align: center; 
+    position: absolute;
+    left: 50px;
+top:600px
+}
+.dimunue{
+    margin-left: 150px;
+    text-align: center;
+}
+
+.rimunue{
+    margin-left: 60px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+top:640px
+}
+
+.male{
+    text-align: center;
+}
+.fale{
+    text-align: center;
+    top: 150px;
+    position: absolute;
+}
+
+.boutton{
+text-align: center;
+}
+.moutton{
+    text-align: left;
+}
+
+.btn{
+    margin-left: 675px;
+    background: transparent;
+    outline: none;
+    color: grey
+ 
+}
+.ltn{
+    margin-left: 0px;
+    background: transparent;
+    outline: none;
+    color: grey;
+    position: absolute;
+    left: 70px;
+top:550px
+    
+}
+
+
+.btn i:hover{
+    cursor: pointer;
+}
+
+.ltn i:hover{
+    cursor: pointer;
+   
+}

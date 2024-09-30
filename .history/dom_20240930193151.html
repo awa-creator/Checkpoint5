@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compteur avec Réinitialisation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .value {
+            margin: 0 10px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="button2">
+        <p>
+            <button onclick="sumaclick(1)" class="ajout">+</button>
+            <span id="summet" class="value">0</span>
+            <button onclick="sumaclick(-1)" class="retrait">-</button>
+        </p>   
+        <button onclick="sumaclick(0)" class="reset">RESET</button>
+        <button onclick="Toggle2()" class="ltn">
+            <i id="btnh2" class="fa-solid fa-heart"></i>
+        </button>
+    </div>
+
+    <script>
+        function sumaclick(click) {
+            const summet = document.getElementById('summet');
+            let sumvalue = parseInt(summet.innerText);
+
+            // Réinitialiser le compteur
+            if (click === 0) {
+                sumvalue = 0;
+            } else {
+                sumvalue += click; // Ajouter ou soustraire
+
+                // Empêcher les valeurs négatives
+                if (sumvalue < 0) {
+                    sumvalue = 0;
+                }
+            }
+
+            summet.innerText = sumvalue; // Mettre à jour l'affichage
+        }
+
+        function Toggle2() {
+            const btnh2 = document.getElementById('btnh2');
+            btnh2.classList.toggle('fa-solid'); // Changer à plein
+            btnh2.classList.toggle('fa-regular'); // Changer à vide
+        }
+    </script>
+</body>
+</html>

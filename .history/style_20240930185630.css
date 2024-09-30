@@ -1,0 +1,110 @@
+body{
+    background-color: rgba(35, 58, 58, 0.541);
+    
+    
+}
+h1{
+    text-align: center;
+    margin-top: 90px;
+    color: rgb(11, 44, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+}
+.part1{
+    margin-left: 90px;  
+}
+.im1{
+    border-radius: 5px;
+}
+
+.part2{
+    margin-left: 700px;
+    margin-top: -450px;
+}
+.chaus2{
+    margin-left: 600px;   
+}
+.prix1{
+    margin-left:   80px;
+}
+.prix2{
+    margin-left: 800px;
+}
+.plus{
+
+    margin-left: 90px;
+    margin-top: -70px;
+    text-align: center;
+}
+
+
+.value1{
+    margin-left: 30px;
+    text-align: center;
+}
+.moins{
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.reinit{
+    margin-left: 200px;
+    text-align: center;
+}
+.ajout{
+    margin-left: 800px;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+top:600px
+}
+.value2{
+    margin-left: 870px;
+    text-align: center; 
+    position: absolute;
+    left: 30px;
+top: 600px;
+}
+.retrait{
+    margin-left: 900px;
+    text-align: center; 
+    position: absolute;
+    left: 50px;
+top:600px
+}
+.reset{
+    margin-left: 890px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+top:640px
+}
+.btn{
+    margin-left: 300px;
+    margin-top: -200px;
+    background: transparent;
+    outline: none;
+    color: rgb(99, 94, 94)
+ 
+}
+.ltn{
+    margin-left: 900px;
+    background: transparent;
+    outline: none;
+    color: rgba(128, 128, 128, 0.959);
+    position: absolute;
+    left: 70px;
+top:550px
+    
+}
+
+
+.btn i:hover{
+    cursor: pointer;
+}
+
+.ltn i:hover{
+    cursor: pointer;
+   
+}
